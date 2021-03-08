@@ -193,6 +193,7 @@ def user_stats(df, city):
     print('-'*40)
 
 def rawdata(df):
+    """Displays 5 rows of data until the user chooses 'No' """
     row = 0
     while True:
         viewData = input("Would you like to see the raw data? Type 'Yes' or 'No'.")
@@ -213,7 +214,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df,city)
         rawdata(df)
-        
+
         while True:
             restart = input('\nWould you like to restart? Enter yes or no.\n')
             if restart.lower() == 'yes':

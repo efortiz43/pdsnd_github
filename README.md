@@ -1,12 +1,13 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+## Explore US Bikeshare Data
 
 ### Date created
 This project was created on GitHub on March 7th 2021.
-However, **the final version** of bikeshare.py was done on February 18th 2021
-### Bikeshare analysis
+>**Note**: The **final version** of bikeshare.py was done on February 18th 2021
+
 
 ### Description
-Analysis of the bike share system for Chicago, New York and Washington using numpy and Pandas
+Use Python to analyze the bike share system for Chicago, New York and Washington.
+>Part of the  "Introduction to Python" Module from the Programming for Data Science with Python Nanodegree Program
 
 ### Files used
 chicago.csv
@@ -15,4 +16,4 @@ washington.csv
 
 ### Credits
 In order to display most frequent combination of start station and end station trip, the following link was checked:
-[How to find the most frequent combination](https://stackoverflow.com/questions/53037698/how-can-i-find-the-most-frequent-two-column-combination-in-a-dataframe-in-python)
+[How to find the most frequent two-column combination in a Dataframe ](https://stackoverflow.com/questions/53037698/how-can-i-find-the-most-frequent-two-column-combination-in-a-dataframe-in-python)
